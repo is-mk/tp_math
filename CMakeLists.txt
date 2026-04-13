@@ -13,8 +13,7 @@ add_executable(tp_math main.c
         src/problemes.c
         include/problemes.h
         src/nombre.c
-        include/nombre.h)
-add_executable(tp_math main.c
+        include/nombre.h
         src/addition.c
         src/soustraction.c
         include/soustraction.h
