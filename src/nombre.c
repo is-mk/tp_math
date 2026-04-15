@@ -46,7 +46,7 @@ int nombre() {
     int choix = rand() % 100;
 
     char *choix_char = nombres_lettres[choix];
-    int choix_int = nombre[choix];
+    int choix_int = nombres[choix];
     int proposition_utilisateur;
 
 
