@@ -5,6 +5,6 @@
 #ifndef TP_MATH_NOMBRE_H
 #define TP_MATH_NOMBRE_H
 
-void nombre();
+int nombre();
 
 #endif //TP_MATH_NOMBRE_H
