@@ -5,5 +5,9 @@
 #include "../include/operations.h"
 
 void operations() {
-    return;
+    int a, b, c;
+    int resultat_cible;
+    int reponse;
+
+    return
 }

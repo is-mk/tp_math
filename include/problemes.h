@@ -5,6 +5,6 @@
 #ifndef TP_MATH_PROBLEMES_H
 #define TP_MATH_PROBLEMES_H
 
-void problemes();
+int problemes();
 
 #endif //TP_MATH_PROBLEMES_H
