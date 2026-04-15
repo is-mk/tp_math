@@ -25,18 +25,18 @@ int divisions() {
 
     while (a_trouver < 1) {
 
-        printf("Divisie les nombres %d/%d", a, b);
+        printf("Divisie les nombres %d/%d\n", a, b);
 
-        printf("Quel est le reste ?");
-        scanf("%d", reste_utilisateur);
+        printf("Quel est le reste ?\n> ");
+        scanf("%d", &reste_utilisateur);
 
-        printf("Quel est le quotient ?");
-        scanf("%d", quotient_utilisateur);
+        printf("Quel est le quotient ?\n> ");
+        scanf("%d", &quotient_utilisateur);
 
         if (reste_utilisateur == reste & quotient_utilisateur == quotient) {
             a_trouver++;
         } else {
-            printf("Vous avez fait une erreur, recommencez !");
+            printf("Vous avez fait une erreur, recommencez !\n");
             essaie++;
         }
     }
