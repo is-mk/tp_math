@@ -3,3 +3,7 @@
 //
 
 #include "../include/Multiplication.h"
+
+void multiplication() {
+
+}

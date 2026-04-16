@@ -3,3 +3,8 @@
 //
 
 #include "../include/soustraction.h"
+
+
+void soustraction() {
+
+}

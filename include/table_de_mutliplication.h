@@ -4,5 +4,5 @@
 
 #ifndef TP_MATH_TABLE_DE_MUTLIPLICATION_H
 #define TP_MATH_TABLE_DE_MUTLIPLICATION_H
-
+void table_de_mutlipication();
 #endif //TP_MATH_TABLE_DE_MUTLIPLICATION_H

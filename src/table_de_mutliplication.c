@@ -3,3 +3,7 @@
 //
 
 #include "../include/table_de_mutliplication.h"
+
+void table_de_mutliplication() {
+
+}

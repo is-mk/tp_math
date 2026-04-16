@@ -5,4 +5,6 @@
 #ifndef TP_MATH_MULTIPLICATION_H
 #define TP_MATH_MULTIPLICATION_H
 
+void multiplication();
+
 #endif //TP_MATH_MULTIPLICATION_H

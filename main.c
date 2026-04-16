@@ -8,8 +8,7 @@
 #include "include/soustraction.h"
 #include "include/Multiplication.h"
 #include "include/table_de_mutliplication.h"
+#include "include/menu.h"
 
-int main(void) {
-    printf("Hello, World!\n");
-    return 0;
+int main() {
 }
