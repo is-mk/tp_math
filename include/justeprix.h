@@ -5,6 +5,6 @@
 #ifndef TP_MATH_JUSTEPRIX_H
 #define TP_MATH_JUSTEPRIX_H
 
-void justeprix();
+int justeprix();
 
 #endif //TP_MATH_JUSTEPRIX_H

@@ -4,6 +4,6 @@
 
 #include "../include/problemes.h"
 
-void problemes() {
-    return;
+int problemes() {
+    return 0;
 }

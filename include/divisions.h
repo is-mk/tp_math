@@ -5,6 +5,6 @@
 #ifndef TP_MATH_DIVISIONS_H
 #define TP_MATH_DIVISIONS_H
 
-void divisions();
+int divisions();
 
 #endif //TP_MATH_DIVISIONS_H
