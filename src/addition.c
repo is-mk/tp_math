@@ -18,7 +18,7 @@ void addition() {
     b = rand() % 101;
 
     // partie affichage
-    printf("Quel est le résultat de l'addition de ses 2 nombres ?\n");
+    printf("Quel est le résultat de l'addition de ces 2 nombres ?\n");
     printf("%d + %d = ?", a, b);
     printf("\n Entrer votre réponse:\n");
     scanf("%d", &réponse);
@@ -31,5 +31,5 @@ void addition() {
         printf("faux, la bonne réponse était %d \n", a + b);
     }
     printf("Que souhaitez vous faire ? \n");
-
+    // Faudrait faire apparaitre ici le menu pour choisir un autre test à faire ou le meme.
 }
