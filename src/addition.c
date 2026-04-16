@@ -6,30 +6,40 @@
 #include <stdlib.h>
 #include <time.h>
 
-void addition() {
+int addition() {
 
     // ici on va initialiser le générateur aléatoire
     srand(time(NULL));
 
-    int a,b, réponse;
+    int a,b,nombr;
+    int réponse = -1;
+    int essaie = 0;
+    //nombre de x que l'exercice souhaite etre fait
 
-    //on génère les 2 nombres qu'on utilisera pour la question
-    a = rand() % 101;
-    b = rand() % 101;
+    printf("combien de fois souhaitez vous faire cette exercice? \n");
+    scanf("%d", &nombr);
+    for (int i = 0; i < nombr; i++) {
+        //on génère les 2 nombres qu'on utilisera pour la question
+        a = rand() % 101;
+        b = rand() % 101;
 
-    // partie affichage
-    printf("Quel est le résultat de l'addition de ces 2 nombres ?\n");
-    printf("%d + %d = ?", a, b);
-    printf("\n Entrer votre réponse:\n");
-    scanf("%d", &réponse);
 
-    //vérification
-    if (réponse == a + b) {
-        printf("%d est la bonne réponse.", réponse);
+        while (réponse != a + b) {
+            // partie affichage
+            printf("Quel est le résultat de l'addition de ces 2 nombres ?\n");
+            printf("%d + %d = ?", a, b);
+            printf("\n Entrer votre réponse:\n");
+            scanf("%d", &réponse);
+
+            //vérification
+            if (réponse == a + b) {
+                printf("%d est la bonne réponse.", réponse);
+            }
+            else {
+                printf("faux\n");
+                essaie ++;
+            }
+        }
+    return essaie;
     }
-    else {
-        printf("faux, la bonne réponse était %d \n", a + b);
-    }
-    printf("Que souhaitez vous faire ? \n");
-    // Faudrait faire apparaitre ici le menu pour choisir un autre test à faire ou le meme.
 }

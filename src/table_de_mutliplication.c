@@ -4,6 +4,8 @@
 
 #include "../include/table_de_mutliplication.h"
 
-void table_de_mutliplication() {
+int table_de_mutliplication() {
+    int essaie = 0;
+    int n, réponse;
 
 }
