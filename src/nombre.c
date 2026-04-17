@@ -55,10 +55,10 @@ int nombre() {
         printf("%s", choix_char);
         scanf("%d", proposition_utilisateur);
         if (proposition_utilisateur == choix_int) {
-            printf("Bravo tu as trouvé !");
+            printf("Bravo, tu as trouvé !");
             a_trouver = 1;
         } else {
-            printf("Réésaie !");
+            printf("Rééssaie !");
             essaie++;
         }
     }

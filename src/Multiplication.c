@@ -3,7 +3,6 @@
 //
 #include<stdio.h>
 #include<stdlib.h>
-#include <time.h>
 #include "../include/Multiplication.h"
 
 int multiplication() {
@@ -13,7 +12,7 @@ int multiplication() {
     int réponse = -1;
     //nombre de x que l'exercice souhaite etre fait
 
-    printf("combien de fois souhaitez vous faire cette exercice? \n");
+    printf("combien de fois souhaitez vous faire cet exercice? \n");
     scanf("%d", &nombr);
 
     for (int i = 0; i < nombr; i++) {

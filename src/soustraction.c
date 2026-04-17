@@ -5,7 +5,7 @@
 #include "../include/soustraction.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+
 
 int soustraction() {
 
@@ -17,7 +17,7 @@ int soustraction() {
     //nombre de x que l'exercice souhaite etre fait
 
 
-    printf("combien de fois souhaitez vous faire cette exercice? \n");
+    printf("combien de fois souhaitez vous faire cet exercice? \n");
     scanf("%d", &nombr);
     for (int i = 0; i < nombr; i++) {
 

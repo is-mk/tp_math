@@ -7,7 +7,7 @@
 #include "include/addition.h"
 #include "include/soustraction.h"
 #include "include/Multiplication.h"
-#include "include/table_de_mutliplication.h"
+#include "include/table_de_multiplication.h"
 #include "include/menu.h"
 #include "include/fichier.h"
 

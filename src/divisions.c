@@ -25,7 +25,7 @@ int divisions() {
 
     while (a_trouver < 1) {
 
-        printf("Divisie les nombres %d/%d\n", a, b);
+        printf("Divise les nombres %d/%d\n", a, b);
 
         printf("Quel est le reste ?\n> ");
         scanf("%d", &reste_utilisateur);

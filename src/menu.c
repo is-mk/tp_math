@@ -13,7 +13,7 @@ int menu() {
         printf("|1 : Addition                       |\n");
         printf("|2 : Soustraction                   |\n");
         printf("|3 : Multiplication                 |\n");
-        printf("|4 : Tables des multiplications    |\n");
+        printf("|4 : Tables des multiplications     |\n");
         printf("|5 : Division                       |\n");
         printf("|0 : Sortir du jeu                  |\n");
         printf("+-----------------------------------+\n");

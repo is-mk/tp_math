@@ -16,7 +16,7 @@ int justeprix() {
     int proposition = 101;
 
     while (nombre != proposition) {
-        printf("Quel est votre proposition ? (1-100)");
+        printf("Quelle est votre proposition ? (1-100)");
         scanf("%d", &proposition);
 
         if (proposition == nombre) {

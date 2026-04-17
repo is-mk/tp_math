@@ -34,7 +34,7 @@ int charger_score() {
             return score;
         }
     }
-    printf("L'utilisateur n'a pa été truové.");
+    printf("L'utilisateur n'a pas été trouvé.");
     fclose(f);
     return 0;
 }

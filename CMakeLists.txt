@@ -20,8 +20,8 @@ add_executable(tp_math main.c
         include/addition.h
         src/Multiplication.c
         include/Multiplication.h
-        src/table_de_mutliplication.c
-        include/table_de_mutliplication.h
+        src/table_de_multiplication.c
+        include/table_de_multiplication.h
         src/menu.c
         include/menu.h)
         include/table_de_mutliplication.h

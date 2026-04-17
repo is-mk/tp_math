@@ -14,9 +14,10 @@ int addition() {
     int a,b,nombr;
     int réponse = -1;
     int essaie = 0;
+
     //nombre de x que l'exercice souhaite etre fait
 
-    printf("combien de fois souhaitez vous faire cette exercice? \n");
+    printf("combien de fois souhaitez vous faire cet exercice? \n");
     scanf("%d", &nombr);
     for (int i = 0; i < nombr; i++) {
         //on génère les 2 nombres qu'on utilisera pour la question
