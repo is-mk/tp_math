@@ -9,8 +9,6 @@
 #include <stdlib.h>
 
 int nombre() {
-    char liste_nombre_lettre[100];
-    int liste_nombre_int[100];
     int essaie = 0;
     int a_trouver =0;
 
