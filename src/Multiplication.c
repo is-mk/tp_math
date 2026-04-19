@@ -37,6 +37,6 @@ int multiplication() {
                 essaie ++;
             }
         }
-    return essaie;
     }
+    return essaie;
 }

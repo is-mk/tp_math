@@ -53,6 +53,6 @@ int soustraction() {
                 essaie++;
             }
         }
-    return essaie;
     }
+    return essaie;
 }
