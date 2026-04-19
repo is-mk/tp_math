@@ -5,6 +5,6 @@
 #ifndef TP_MATH_OPERATIONS_H
 #define TP_MATH_OPERATIONS_H
 
-void operations();
+int operations();
 
 #endif //TP_MATH_OPERATIONS_H
