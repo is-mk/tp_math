@@ -41,6 +41,6 @@ int addition() {
                 essaie ++;
             }
         }
-    return essaie;
     }
+    return essaie;
 }
