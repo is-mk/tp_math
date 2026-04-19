@@ -19,8 +19,6 @@ int main(void) {
     printf("Quel est votre nom d'utilisateur ? \n> ");
     scanf("%[^\n]", nom);
 
-    sauvegarder_score("Islem", 800);
-
     while (choix != 0) {
         printf("+-----------------------------------+\n");
         printf("|1 : Addition                       |\n");
@@ -42,16 +40,16 @@ int main(void) {
 
         switch (choix) {
             case 1:
-                // essaie = addition();
+                essaie = addition();
                 break;
             case 2:
-                // essaie = soustraction();
+                essaie = soustraction();
                 break;
             case 3:
-                // essaie = mulitplication();
+                essaie = multiplication();
                 break;
             case 4:
-                // essaie = jsp
+                essaie = table_de_multiplication();
                 break;
             case 5:
                 essaie = divisions();
@@ -60,7 +58,7 @@ int main(void) {
                 essaie = justeprix();
                 break;
             case 7:
-                // essaie = jeu_des_operations();
+                essaie = operations();
                 break;
             case 8:
                 essaie = problemes();
