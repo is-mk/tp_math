@@ -4,6 +4,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include "../include/Multiplication.h"
+#include <time.h>
 
 int multiplication() {
 
@@ -16,6 +17,8 @@ int multiplication() {
     scanf("%d", &nombr);
 
     for (int i = 0; i < nombr; i++) {
+
+        srand(time(NULL));
 
         //génération de 2 entier entre 1 et 10
         a = rand() % 10 + 1;

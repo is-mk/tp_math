@@ -86,6 +86,6 @@ int main(void) {
                 printf("Vous avez réussi en %d essaie, vous ne gagnez pas de points..\n", choix);
                 break;
         }
+        sauvegarder_score(nom, point);
     }
-    sauvegarder_score(nom, point);
 }

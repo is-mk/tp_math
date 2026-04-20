@@ -16,18 +16,18 @@ int justeprix() {
     int proposition = 101;
 
     while (nombre != proposition) {
-        printf("Quelle est votre proposition ? (1-100)");
+        printf("Quelle est votre proposition ? (1-100)\n> ");
         scanf("%d", &proposition);
 
         if (proposition == nombre) {
-            printf("Bravo vous avez trouvé le bon nombre !");
+            printf("Bravo vous avez trouvé le bon nombre !\n");
         } else {
-            printf("Mauvaise réponse..");
+            printf("Mauvaise réponse..\n");
             essaie++;
             if (nombre < proposition) {
-                printf("Le nombre à trouver est plus bas.");
+                printf("Le nombre à trouver est plus bas.\n");
             } else {
-                printf("Le nombre à trouver est plus haut.");
+                printf("Le nombre à trouver est plus haut.\n");
             }
         }
     }
