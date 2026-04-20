@@ -40,7 +40,7 @@ int charger_score() {
 }
 
 void sauvegarder_score(char nom[], int score) {
-    // Après des recherche, on ne peut pas modifier directement une ligne voulu, je vais donc passer par un fichier temporaire.
+    // Pour ajouter le nouveau score, on va passer par un fichier temporaire
     FILE *f = fopen("../score.txt", "r");
     FILE *temp = fopen("../temp.txt", "w");
 
