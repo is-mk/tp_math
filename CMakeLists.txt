@@ -10,8 +10,6 @@ add_executable(tp_math main.c
         include/justeprix.h
         src/operations.c
         include/operations.h
-        src/problemes.c
-        include/problemes.h
         src/nombre.c
         include/nombre.h
         src/addition.c
@@ -22,7 +20,5 @@ add_executable(tp_math main.c
         include/Multiplication.h
         src/table_de_multiplication.c
         include/table_de_multiplication.h
-        src/menu.c
-        include/menu.h
         src/fichier.c
         include/fichier.h)

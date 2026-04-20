@@ -3,12 +3,10 @@
 #include "include/operations.h"
 #include "include/justeprix.h"
 #include "include/nombre.h"
-#include "include/problemes.h"
 #include "include/addition.h"
 #include "include/soustraction.h"
 #include "include/Multiplication.h"
 #include "include/table_de_multiplication.h"
-#include "include/menu.h"
 #include "include/fichier.h"
 
 int main(void) {
@@ -28,9 +26,8 @@ int main(void) {
         printf("|5 : Divisions                      |\n");
         printf("|6 : Juste prix                     |\n");
         printf("|7 : Jeu des opérations             |\n");
-        printf("|8 : Problèmes                      |\n");
-        printf("|9 : Nombres                        |\n");
-        printf("|10 : Tableau des score             |\n");
+        printf("|8 : Nombres                        |\n");
+        printf("|9 : Tableau des score             |\n");
         printf("|0 : Sortir du jeu                  |\n");
         printf("+-----------------------------------+\n");
         printf("Quel est votre choix ?\n> ");
@@ -61,11 +58,8 @@ int main(void) {
                 essaie = operations();
                 break;
             case 8:
-                essaie = problemes();
-                break;
-            case 9:
                 essaie = nombre();
-            case 10:
+            case 9:
                 charger_score();
                 break;
             case 0:
