@@ -21,7 +21,7 @@ int table_de_multiplication() {
 
     //affichage table
 
-    for (int i = 1; i <= t; i++) {
+    for (int i = 1; i <= 10; i++) {
         printf("%d x %d = %d \n", t, i, i * t);
     }
 
